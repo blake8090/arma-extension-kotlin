@@ -42,7 +42,7 @@ fun rvExtension(output: CPointer<ByteVar>, outputSize: Int, function: CPointer<B
  * @param output The output buffer to be returned from `callExtension`
  * @param outputSize The maximum size of bytes that can be returned (usually 20MB?)
  * @param function The function identifier passed in `callExtension`
- * @param argv An array of pointers to strings passed in
+ * @param argv The args passed to `callExtension` as a string array
  * @param argc Number of elements in `argv`
  */
 @ExperimentalForeignApi
